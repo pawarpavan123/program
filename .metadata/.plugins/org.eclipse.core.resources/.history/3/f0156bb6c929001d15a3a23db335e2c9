@@ -1,0 +1,12 @@
+package sumit;
+import pawar.Udgir ;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Udgir obj=new Udgir();
+		obj.Udgirinfo();
+	}
+
+}

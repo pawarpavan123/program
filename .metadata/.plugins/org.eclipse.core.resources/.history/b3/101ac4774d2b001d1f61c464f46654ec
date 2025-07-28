@@ -1,0 +1,13 @@
+package target;
+
+public class fix {
+	public void fixsuccess () {
+		
+		System.out.println("sai om");
+		System.out.println("using for collection of classes & interfaces");
+		System.out.println("package define uder src folder those package created by user as called user define package");
+		
+		
+	}
+
+}

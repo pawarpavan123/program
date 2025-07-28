@@ -1,0 +1,12 @@
+package parshuram;
+
+public class chandar{
+	public void chandarnaik () 
+	{
+		System.out.println("o to 9");
+		System.out.println("object define for fast execution  purpose,"
+				+ "easily maintain your code");
+		
+	}
+}
+

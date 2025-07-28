@@ -1,0 +1,18 @@
+package odd_even_no;
+
+public class type_2 {
+	public static void main (String []args) {
+		int a1= 50;
+		for (int i=1;i<=a1;i++) {
+			//System.out.println(i);
+			
+			if (i%2==0) {
+				System.out.println("Even No = "+i);
+			}
+			else {
+				System.out.println("Odd No  = "+i);
+			}
+		}
+	}
+
+}

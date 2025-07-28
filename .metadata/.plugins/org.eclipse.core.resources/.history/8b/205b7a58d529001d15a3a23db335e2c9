@@ -1,0 +1,10 @@
+package sai;
+
+public class pray {
+	public void pray3()
+	{
+		System.out.println("pawar");
+	}
+	
+
+}

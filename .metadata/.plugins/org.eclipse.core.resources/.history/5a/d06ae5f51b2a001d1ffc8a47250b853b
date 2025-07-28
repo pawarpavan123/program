@@ -1,0 +1,9 @@
+package space;
+
+public class end {
+	public void endwork()
+	{
+		System.out.println("output c0rrect");
+	}
+
+}

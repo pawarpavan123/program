@@ -1,0 +1,13 @@
+package ankosh;
+import ravi.latur;
+public class rathod extends latur {
+	public void janapur () {
+		System.out.println("hay i am ......");
+	}
+	public static void main (String []args) {
+    rathod obj = new rathod ();
+    obj.janapur ();
+    latur a1= new latur ();
+    a1.udgirkar();
+}
+}

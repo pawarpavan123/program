@@ -1,0 +1,12 @@
+//import java.util.Scanner;
+public class demo {
+	
+	public static void main(String []args) {
+		String pawar = "parshuram";
+		System.out.println(pawar.toUpperCase());
+		System.out.println(pawar.charAt(8));
+		System.out.println(pawar.codePointAt(9));
+		System.out.println(pawar.toLowerCase());
+		
+		
+	}}

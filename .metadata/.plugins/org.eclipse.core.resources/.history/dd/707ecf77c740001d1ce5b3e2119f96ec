@@ -1,0 +1,25 @@
+package petrol;
+
+ class pawar {
+	public void a1() {
+		System.out.println("step");
+	}
+}
+ class suraj extends pawar {
+	public void a1() {
+		System.out.println("next step");
+	}
+}
+	 class sumit extends pawar {
+		public void a1() {
+			
+			System.out.println("final");
+		}
+	
+		public static void main (String []args) {
+			suraj obj = new suraj();
+			obj.a1();
+			sumit s1= new sumit ();
+			s1.a1();
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;target&apos; to &apos;Wrapper_Class&apos;" description="Move &apos;target&apos; to &apos;Wrapper_Class&apos;" destination="/Wrapper_Class" element1="/Webproject/target" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1680497004172" updateReferences="true"/>
+</session>

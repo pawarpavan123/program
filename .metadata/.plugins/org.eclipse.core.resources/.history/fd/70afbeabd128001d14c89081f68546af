@@ -1,0 +1,34 @@
+package america;
+
+public class people {
+	
+	public void peopleman()
+	{
+		int a=12345;
+		int b=67890;
+		int c=a+b;
+	System.out.println(c);
+	}
+	void peopleA1 ()
+	{
+		float a=12.346757f;
+		float b=95.747483f;
+		float c=a+b;
+		System.out.println(c);
+	}
+	void peopleparle ()
+	{
+		long a=8308003861l;
+		long b=8329828730l;
+		long c=a+b;
+		System.out.println(c);
+		
+	}
+	
+	public static void main(String args []) {
+		
+		people girl = new people();
+		girl.peopleman();
+	}
+
+}

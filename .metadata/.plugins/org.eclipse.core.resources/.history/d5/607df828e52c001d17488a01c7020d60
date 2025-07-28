@@ -1,0 +1,20 @@
+package seasonmall;
+import showroom.smartclass;
+public class alexclass
+{
+	public void alexclassmicro () 
+	{
+		
+	System.out.println("high-level promgramming language");
+	System.out.println("pawar laxmi");
+	}
+	public static void main(String args []) 
+	{
+		
+		alexclass channel = new alexclass();
+		channel.alexclassmicro();
+		smartclass tv = new smartclass();
+		tv.smartclassmicro();
+	}
+
+}

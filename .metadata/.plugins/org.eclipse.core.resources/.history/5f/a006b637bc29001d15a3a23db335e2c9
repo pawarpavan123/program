@@ -1,0 +1,59 @@
+package sumit;
+
+public class india {
+
+	public void Indiastory() {
+		
+		int a=5000;
+		int b=6000;
+		int c=a+b;
+		
+		System.out.println(c);
+	}
+	void indiamap() {
+	
+		char char1='a'; 
+		char char2='Z';
+		
+		System.out.println(char1); System.out.println(char2);
+		}
+	void indiaroad() {
+		
+		double a=267835;
+		double b=36789;
+		double c=a+b;
+		
+		System.out.println(c);
+	}
+		 void indiahistory() {
+			 
+			 long x=20462874;
+			 long y=30987654;
+			 long z=x*y;
+			 
+			 System.out.println(z);
+			 
+		 }
+	void indiasymbol() {
+		
+		float p=3659.6f;
+		float q=34567.4f;
+		float r=p/q;
+		
+	
+	System.out.println(r);
+				
+	}
+	
+	public static void main (String []args) {
+		
+		india man=new india();
+
+	man.Indiastory();
+	man.indiamap();
+	man.indiaroad();
+	man.indiahistory();
+	man.indiasymbol();
+	}
+	
+}

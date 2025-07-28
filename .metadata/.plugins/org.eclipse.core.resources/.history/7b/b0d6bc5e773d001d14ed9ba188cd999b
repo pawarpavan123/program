@@ -1,0 +1,18 @@
+package typecasting;
+
+public class demo {
+	public void today() {
+		
+		byte a = 40;
+		int b = a;
+		System.out.println(b);
+	}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    demo obj = new demo();
+    obj.today();
+	}
+
+}

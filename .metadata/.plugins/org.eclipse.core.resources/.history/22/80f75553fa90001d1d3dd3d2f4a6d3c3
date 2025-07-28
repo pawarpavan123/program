@@ -1,0 +1,40 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <%@page import="java.sql.*" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+String Name=request.getParameter("Name");
+String Email=request.getParameter("Email");
+String Mobile_No=request.getParameter("Mobile_No");
+String Address=request.getParameter("Address");
+String pin=request.getParameter("pin");
+String City=request.getParameter("City");
+try{
+	Class.forName("com.mysql.jdbc.Driver");
+//	System.out.println("Driver is load");
+	Connection C=DriverManager.getConnection("jdbc:mysql://localhost:3306/pawar","root","pawar@123");
+	//System.out.println("Connection is established");
+	PreparedStatement pt=C.prepareStatement("insert into hr_manager (Name,Email,Mobile_No,Address,pin,City) values(?,?,?,?,?,?)");
+//pt.setString(1, S);
+pt.setString(1, Name);
+pt.setString(2, Email);
+pt.setString(3, Mobile_No);
+pt.setString(4, Address);
+pt.setString(5, pin);
+pt.setString(6, City);
+pt.executeUpdate();
+//pt.close();
+C.close();
+}
+catch (Exception e){
+	e.printStackTrace();
+}
+%>
+</body>
+</html>

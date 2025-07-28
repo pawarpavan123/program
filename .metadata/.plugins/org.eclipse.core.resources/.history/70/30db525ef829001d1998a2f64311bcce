@@ -1,0 +1,18 @@
+package udgir;
+import latur.Red;
+public class Tape {
+public void Tapemodel() {
+	
+	System.out.println("the various design");
+	
+}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      Tape ban=new Tape();
+      ban.Tapemodel();
+      
+      Red can=new Red();
+      can.Redrose();
+	}
+
+}

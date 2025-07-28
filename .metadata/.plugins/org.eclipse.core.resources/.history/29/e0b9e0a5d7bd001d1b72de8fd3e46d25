@@ -1,0 +1,23 @@
+package practice;
+
+
+
+public class demo {
+	
+	static String s;
+	int a;
+	public static void main(String[] args) {
+		
+		
+		System.out.println(s);
+		System.out.println(a);
+	}
+}
+//
+//String name = "i am developer";
+//		
+//String[]o=name.split(" ");
+//for (String j:o) {
+//	String r=j.substring(0,1).toUpperCase()+j.substring(1);
+//	System.out.print(r +" ");
+//}

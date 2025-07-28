@@ -1,0 +1,12 @@
+package fix;
+public class success {
+public void successdiclare()
+{
+	System.out.println("ganesha");
+	System.out.println("morya");
+	System.out.println("31 september");
+	System.out.println("ganesha utsarjan");
+		
+	}
+
+}

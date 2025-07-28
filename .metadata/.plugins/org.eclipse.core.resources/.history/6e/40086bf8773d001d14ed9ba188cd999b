@@ -1,0 +1,23 @@
+package typecasting;
+
+public class demo {
+	public void today() {
+		
+		byte a = 40;
+		int b = a;
+		short c = a;
+		float f = c;
+		double s =30+c;
+		long  j=(long) s;
+		
+		System.out.println(j);
+	}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    demo obj = new demo();
+    obj.today();
+	}
+
+}

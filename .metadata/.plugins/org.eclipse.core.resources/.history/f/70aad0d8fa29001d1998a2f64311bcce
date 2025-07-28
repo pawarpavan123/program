@@ -1,0 +1,18 @@
+package two;
+import one.zero;
+public class people {
+	public void peopleall()
+	{
+		System.out.println("mobile device");
+		System.out.println("dont't forget activate office 2021");
+		System.out.println("new work space");
+	}
+	public static void main(String args []) {
+		zero obj = new zero();
+		obj.zeronew();
+		people s1 = new people();
+		s1.peopleall();
+
+	}
+
+}

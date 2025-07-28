@@ -1,0 +1,14 @@
+
+package pawar;
+
+public class Udgir {
+   public void Udgirinfo() {
+	   
+	   System.out.println("xyz");
+   }
+  	   
+   
+	
+
+	}
+

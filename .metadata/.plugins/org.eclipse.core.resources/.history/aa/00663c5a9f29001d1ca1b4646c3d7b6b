@@ -1,0 +1,53 @@
+package sumit;
+
+public class india {
+
+	public void Indiastory() {
+		
+		int a=5000;
+		int b=6000;
+		int c=a+b;
+		
+		System.out.println(c);
+	}
+	void indiamap() {
+	
+		char char1='a'; 
+		char char2='Z';
+		
+		System.out.println("char;"+char1);
+		System.out.println("char;"+char2);
+		}
+	void indiaroad() {
+		
+		boolean user=false;
+		if(user==false);{
+		
+		System.out.println("its a true");
+
+		}	
+ 
+		
+		
+		{
+	}
+		System.out.println("its  false");
+		}
+		 
+	
+				
+			
+	
+		
+	
+	
+	public static void main (String []args) {
+		
+		india man=new india();
+
+	man.Indiastory();
+	man.indiamap();
+	man.indiaroad();
+	}
+	
+}

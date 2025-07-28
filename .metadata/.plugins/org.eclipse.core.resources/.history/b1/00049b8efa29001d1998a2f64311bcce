@@ -1,0 +1,15 @@
+package two;
+import one.zero;
+public class people {
+	public void peopleall()
+	{
+		System.out.println("mobile device");
+	}
+	public static void main(String args []) {
+		zero obj = new zero();
+		obj.zeronew();
+		people rocky = new people();
+		rocky.peopleall();
+	}
+
+}

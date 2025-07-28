@@ -1,0 +1,23 @@
+import open.app;
+
+ class chimani {
+	public void dance() {
+	System.out.println("the flying the high and high");	
+		System.out.println("stand the small tree");
+	}
+ }
+class parrot extends chimani{
+	
+	public void run() {	
+		System.out.println("the drinking the water in river");
+	}
+	public static void main(String[] pawarsumit) {
+
+		parrot s1=new parrot();
+		app s2=new app();
+		s2.software();
+		s1.run();
+		s1.dance();
+	}
+
+}

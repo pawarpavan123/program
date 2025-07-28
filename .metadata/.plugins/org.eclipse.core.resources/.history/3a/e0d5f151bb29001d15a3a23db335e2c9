@@ -1,0 +1,53 @@
+package water;
+
+public class today {
+	public void todaynow()
+	{
+		char char1='P';
+		char char2='M';
+		
+		System.out.println("char"+char1);
+		System.out.println("char"+char2);
+	}
+   public void todaywater()
+   {
+	   int a=123;
+	   int b=888;
+	   int c=a*b;
+	   System.out.println(c);
+	   
+   }
+   public void todayglass()
+   {
+	   double a=67676767;
+	   double x=98989988;
+	   double p=a/x;
+	   System.out.println(p);
+	   
+   }
+   public void todaybag()
+   {
+	   float t=656.678866f;
+	   float u=3367.45759890f;
+	   float p=t/u;
+	   System.out.print(p);
+   }
+   public void todayhp()
+   {
+	long p=992226386;
+	long l=830805807;
+	long f=p+l;
+	System.out.println(f);
+	
+   }
+   public static void main(String args [])
+   {
+	   today pawar =new today();
+	   
+	    pawar.todaynow();
+	    pawar.todaywater();
+	    pawar.todayglass();
+	    pawar.todaybag();
+	    pawar.todayhp();
+   }
+}

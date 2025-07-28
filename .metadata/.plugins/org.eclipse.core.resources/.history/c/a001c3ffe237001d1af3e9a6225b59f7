@@ -1,0 +1,23 @@
+package kiran;
+import java.util.Scanner;
+public class pawar {
+	public static void main (String []args) {
+		
+		Scanner a1 = new Scanner(System.in );
+		
+		System.out.println("enter the new paper");
+		String paper = a1.next();
+		
+		System.out.println("enter the boss name = ");
+		
+		String bossname = a1.nextLine();
+		
+		System.out.println("enter the id");
+		int id = a1.nextInt();
+		
+		System.out.println("paper"+paper);
+		System.out.println("bossname"+bossname);
+		System.out.println("id"+id);
+	}
+
+}

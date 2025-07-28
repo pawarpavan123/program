@@ -1,0 +1,13 @@
+package sumit;
+import pawar.Udgir ;
+
+public class Demo {
+public void Udgirshow() {
+System.out.println("sumit talwade");
+}
+	public static void main(String[] args) {
+		Udgir obj=new Udgir();
+		obj.Udgirinfo();
+	}
+
+}

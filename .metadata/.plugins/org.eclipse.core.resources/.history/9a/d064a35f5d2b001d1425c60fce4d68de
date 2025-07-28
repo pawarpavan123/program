@@ -1,0 +1,18 @@
+import target.fix; 
+
+public class professional { 
+public void professionalraje ()
+	
+	{
+		System.out.println("sri ganesha");
+	}
+
+	public static void main(String[] args){
+		
+		professional p1  = new professional ();
+        p1.professionalraje();
+        fix s1 = new fix();
+        s1.fixsuccess();
+	}
+
+}

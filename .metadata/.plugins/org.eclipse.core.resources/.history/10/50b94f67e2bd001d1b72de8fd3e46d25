@@ -1,0 +1,16 @@
+package practice;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Dupli {
+
+	public static void main(String[] args) {
+List <Integer> l=new ArrayList();
+l.add(566);
+l.add(796);
+l.add(24556);
+System.out.println(l);
+l.remove(1);
+System.out.println(l);
+}}

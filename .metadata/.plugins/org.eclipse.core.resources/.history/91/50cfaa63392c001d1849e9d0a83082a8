@@ -1,0 +1,9 @@
+package black;
+
+public class fevorite {
+	public void fevoritejob() {
+		
+		System.out.println("reusability");
+	}
+
+}

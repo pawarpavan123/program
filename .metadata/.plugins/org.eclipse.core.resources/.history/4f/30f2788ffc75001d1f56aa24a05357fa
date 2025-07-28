@@ -1,0 +1,31 @@
+package custom;
+import java.util.*;
+class AgeException extends Exception{
+	AgeException(String msg) {
+		super(msg);
+		// TODO Auto-generated constructor stub
+	}
+}
+public class ageException 
+{ 
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		Scanner o = new Scanner (System.in);
+		System.out.println("enter the age");
+	
+		int a = o.nextInt();
+		try {
+			if (a>20) {
+				throw new AgeException ("plz enter valid age");
+				//System.out.println("");
+			}
+			else 
+			{
+				System.out.println("hello");
+			}}
+			catch (AgeException t) {
+				System.out.println(t);
+			}
+	}
+}

@@ -1,0 +1,16 @@
+package parshuram;
+
+public class chandar{
+	public void chandarnaik () 
+	{
+		System.out.println("o to 9");}
+	
+	public static void main (String pavan [])
+	
+		{
+		int b=8 ;
+		int a=3 ;
+		a+=+b;
+			}
+	}
+

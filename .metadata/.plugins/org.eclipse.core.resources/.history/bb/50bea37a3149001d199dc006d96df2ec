@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class demo {
+	
+	public static void main(String []args) {
+	 Scanner obj = new Scanner(System.in);
+	 System.out.println("doller");
+	// System.out.println("enter your marks");
+	 int a = obj.nextInt();
+	 //System.out.println("enter the total marks");
+	// int b= obj.nextInt();
+	
+	 
+	float s = 74.42f;
+	float y = a*s;
+	System.out.println("rupees = "+y);
+	}}

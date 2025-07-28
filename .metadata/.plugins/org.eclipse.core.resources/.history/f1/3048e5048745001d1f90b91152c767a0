@@ -1,0 +1,16 @@
+
+public class demo {
+	public static void main (String []args) {
+		
+		int i;
+		for (i=2;i<=20;i=i+2) {
+			System.out.println(i);
+		}
+		int a;
+		
+		for (a=36;a<=360;a=a+36) {
+			System.out.println(a);
+		}
+				
+		
+	}}

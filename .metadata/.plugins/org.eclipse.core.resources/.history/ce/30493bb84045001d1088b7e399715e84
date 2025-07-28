@@ -1,0 +1,13 @@
+
+public class demo {
+	public static void main (String []args) {
+		int a ;
+		for (a=2;a<=20;a=a+2) {
+		System.out.println(a);
+	}
+		int i;
+		for (i=9;i<=90;i=i+9) {
+			System.out.println("i");
+		}
+
+	}}

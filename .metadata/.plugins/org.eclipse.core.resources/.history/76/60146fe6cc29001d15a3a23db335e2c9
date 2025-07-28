@@ -1,0 +1,22 @@
+package man;
+
+import m.kiran;
+
+
+
+public class mira {
+public void mirashow() {
+	System.out.println("new");
+}
+	
+    public static void main(String[]args) {
+    	
+    	kiran s1 =new kiran();
+    	s1.kirandada();
+    	
+    }
+		
+		
+	}
+
+

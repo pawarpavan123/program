@@ -1,0 +1,10 @@
+package pavan;
+
+public class bro {
+	public void brome ()
+	{
+		System.out.println("joint");
+		System.out.println("simle always dear");
+	}
+
+}

@@ -1,0 +1,19 @@
+
+package absraction;
+import java.util.Scanner;
+public class today {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner a1= new Scanner(System.in);
+		System.out.println("enter the name = ");
+		String h = a1.next();
+		System.out.println("enter the password ");
+		String j = a1.nextLine();
+		 if (h.equals("pawar") && (j.equals("123133")))
+			 
+				 System.out.println("pawar pavan");
+ 
+	}
+
+}

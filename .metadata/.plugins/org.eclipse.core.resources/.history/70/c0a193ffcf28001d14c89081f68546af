@@ -1,0 +1,32 @@
+package america;
+
+public class Japan {
+
+	public void Japanwrite() {
+		
+		char char1='a';
+		char char2='A';
+		
+		System.out.println("char;"+char1);
+		System.out.println("char;"+char2);
+		}
+	
+	public void Japanshow() {
+		
+	boolean user=true;
+	if(user==true) {
+		System.out.println("its a true");
+	}
+	else {
+		System.out.println(" its false");
+	}
+		
+	}
+	public static void main (String args []) {
+		
+		Japan p1=new Japan();
+	p1.Japanwrite();
+	p1.Japanshow();
+	
+	}
+}

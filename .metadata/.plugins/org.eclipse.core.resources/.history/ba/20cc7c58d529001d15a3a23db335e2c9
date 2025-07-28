@@ -1,0 +1,15 @@
+package om;
+import sai.pray;
+public class god {
+public void god2 ()
+{
+	System.out.println("pavan");
+}
+	public static void main(String[] args) {
+  pray s1 = new pray();
+    s1.pray3();
+    god s2 = new god ();
+    s2.god2();
+	}
+
+}

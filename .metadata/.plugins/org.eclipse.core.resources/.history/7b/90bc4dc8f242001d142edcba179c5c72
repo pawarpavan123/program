@@ -1,0 +1,29 @@
+package practice;
+//import java.util.Scanner;
+ class om {
+	public void show() {
+		System.out.println("hii");
+	}
+}
+class sumit extends om {
+	public void show () {
+		super.show();
+		System.out.println("hello");
+	}
+}
+class demo extends om{
+	public void show () {
+		super.show();
+		System.out.println("welcome");
+	}
+
+	public static void main (String []args) {
+		demo obj = new demo ();
+		obj.show();
+		sumit a1 = new sumit();
+		a1.show();
+		
+	}
+ }
+
+	

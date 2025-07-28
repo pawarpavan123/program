@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" 
+   xmlns:aop = "http://www.springframework.org/schema/aop"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd 
+   http://www.springframework.org/schema/aop 
+   http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+   <aop:aspectj-autoproxy />
+   <bean class="AOP.Payment" id="pay" />
+   <bean class="AOP.OTP" id="otp" />
+   <aop:config>
+   <aop:aspect id="aspect1" ref="otp">
+   <aop:pointcut expression="execution(* AOP.Payment.*(..))" id="point"/>
+   <aop:after method="a1" pointcut-ref="point"/>
+   </aop:aspect>
+   </aop:config>   
+   
+   </beans>
+      
+   
+   
+   
+   

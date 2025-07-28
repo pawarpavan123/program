@@ -1,0 +1,17 @@
+package Relationalp;
+import java.util.Scanner;
+public class lessthen {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner a1 = new Scanner(System.in);
+		System.out.println("enter the amount = ");
+		int a=a1.nextInt();
+		if (a<1000) {
+		System.out.println("good");
+	}
+	else {
+		System.out.println("error");
+	}
+}
+}

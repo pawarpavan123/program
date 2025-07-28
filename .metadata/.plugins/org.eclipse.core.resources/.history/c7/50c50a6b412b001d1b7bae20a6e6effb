@@ -1,0 +1,10 @@
+package parshuram;
+
+public class chandar {
+	public void chandarpawar ()
+	{
+	System.out.println("anusayabai pawar");
+	System.out.println("kim namjun");
+	}
+
+}

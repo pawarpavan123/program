@@ -1,0 +1,22 @@
+
+package absraction;
+import java.util.Scanner;
+public class today {
+	public static void main (String []args) {
+		Scanner obj = new Scanner(System.in);
+		
+		System.out.println("mobile number = ");
+		String v = obj.next();
+		System.out.println("pin code = ");
+		String l = obj.next();
+		 if (v.equals("8308003861")&& (l.equals("413517")))
+			 
+			 System.out.println("congratulation");
+		 else {
+			 System.out.println("error");
+		 }
+		
+	}
+}
+
+	

@@ -1,0 +1,14 @@
+package pad;
+import note.book;
+
+public class school {
+public void schooldispay() {
+	
+	System.out.println("900");
+
+	}
+public static void main(String args[]) {
+	book t1=new book();
+	t1.book2();
+}
+}

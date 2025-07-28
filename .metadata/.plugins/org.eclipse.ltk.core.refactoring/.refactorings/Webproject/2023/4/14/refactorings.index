@@ -1,0 +1,38 @@
+1680497307437	Rename type 'web'
+1680497726298	Move 'web.xml' to 'webapp'
+1680497737510	Move 'web.xml' to 'WEB-INF'
+1680497779251	Rename resource 'ContextDispatchServlet.xml'
+1680497869648	Rename resource 'ContextDispatchServlet-servlet.xml'
+1680498425038	Rename resource 'Home.jsp'
+1680501779516	Delete element
+1680533381915	Delete element
+1680583301542	Rename resource 'registration.jsp'
+1680584626289	Delete element
+1680587846593	Delete element
+1680608664187	Rename resource 'AppF.jsp'
+1680608912346	Delete element
+1680670200279	Move 'viewer.css' to 'static'
+1680670206191	Delete element
+1680670235152	Delete element
+1680670245505	Delete element
+1680670332041	Delete element
+1680670588063	Delete element
+1680671216782	Rename resource 'home.html'
+1680671413962	Rename resource 'pawar.html'
+1680671423027	Delete element
+1680671547577	Delete element
+1680677572131	Move 'home.jsp' to 'page'
+1680677725577	Move 'home.jsp' to 'WEB-INF'
+1680702701186	Move 'home.jsp' to 'view'
+1680756930767	Move 'page' to 'Resource'
+1680756933820	Move 'static' to 'Resource'
+1680768341877	Rename resource 'demo-servlet.xml'
+1680768458478	Rename resource 'DispatcherServlet.xml'
+1680768908769	Copy file
+1680768917703	Copy file
+1680768929271	Delete element
+1680772218581	Copy file
+1680772371655	Delete element
+1680772379054	Delete element
+1680772383863	Delete element
+1680772468787	Delete element
